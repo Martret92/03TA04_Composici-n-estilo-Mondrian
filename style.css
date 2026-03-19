@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.canvas {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: white;
+    border: 8px solid black;
+}
+
+.rojo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+    background: #E63946;
+    border: 8px solid black;
+}
+
+.amarillo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 30%;
+    background: #F1C40F;
+    border: 8px solid black;
+}
+
+.contenedor-vertical {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 40%;
+    height: 30%;
+    display: flex;
+}
+
+.contenedor-vertical div {
+    flex: 1;
+    background: #F8F9FA;
+    border: 8px solid black;
+}
+
+.negro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 40%;
+    background: #000;
+    border: 8px solid black;
+}
+
+.contenedor-horizontal {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-horizontal div {
+    flex: 1;
+    background: #F8F9FA;
+    border: 8px solid black;
+}
+
+.azul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 40%;
+    background: #1D4ED8;
+    border: 8px solid black;
+}
